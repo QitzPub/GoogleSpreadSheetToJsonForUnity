@@ -6,6 +6,10 @@ Archives中の　GoogleSpreadSheetToJsonVerx.x.x.unitypackage
 から導入が可能です！
 https://github.com/QitzPub/GoogleSpreadSheetToJsonForUnity/tree/master/Archives
 
+パッケージからUnityへインスコします〜〜！
+![インスコ図](https://i.gyazo.com/d76cbd29f11ae1bb3efb49ac55d0b587.png "インスコ")
+
+
 ##  使い方
 
 ```namespace
