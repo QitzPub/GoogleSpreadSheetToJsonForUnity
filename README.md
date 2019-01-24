@@ -13,6 +13,10 @@ using Qitz.DataUtil;
 ```
 を入れます。
 
+### Googleスプレッドシートのurlを取得します！
+
+![googleスプレッドシートurl](https://i.gyazo.com/af6e69c3311e370e3b85cb5f29608a86.png "url")
+
 
 ### jsonで読み込めます。
 
