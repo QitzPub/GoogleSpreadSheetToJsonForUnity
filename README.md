@@ -14,10 +14,10 @@ using Qitz.DataUtil;
 を入れます。
 
 
-###jsonで読み込めます。
+### jsonで読み込めます。
 
 ```jsonで読み込む
-public IEnumerator JsonLoadFromGoogleSpreadSheetTest()
+        public IEnumerator JsonLoadFromGoogleSpreadSheetTest()
         {
             yield return JsonFromGoogleSpreadSheet.GetJsonArrayFromGoogleSpreadSheetUrl("https://docs.google.com/spreadsheets/d/1m--rzZdlS0eURgjQ0Fr4oZHLSY5xvrf8adLaOzSgBEA/edit#gid=1515512237", (jsonArry) =>
             {
@@ -31,11 +31,11 @@ public IEnumerator JsonLoadFromGoogleSpreadSheetTest()
         }
 ```
 
-###指定のT型にシリアライズして読み込めます。
+### 指定のT型にシリアライズして読み込めます。
 
 ```指定の型にシリアライズして読み込む
 
-[Serializable]
+        [Serializable]
         public class TestClassObejct
         {
             [SerializeField]
@@ -51,7 +51,7 @@ public IEnumerator JsonLoadFromGoogleSpreadSheetTest()
             public string Description { get { return description; } }
         }
 
-public IEnumerator GetDataFromGoogleSpreadSheetTest()
+        public IEnumerator GetDataFromGoogleSpreadSheetTest()
         {
             yield return JsonFromGoogleSpreadSheet
             .GetTeargetTypeDataFromGoogleSpreadSheetUrl<TestClassObejct>("https://docs.google.com/spreadsheets/d/1m--rzZdlS0eURgjQ0Fr4oZHLSY5xvrf8adLaOzSgBEA/edit#gid=1076726587", (dataList) =>
