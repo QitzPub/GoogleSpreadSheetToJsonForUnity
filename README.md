@@ -1,0 +1,2 @@
+# GoogleSpreadSheetToJsonForUnity
+Googleスプレッドシートのurlからjsonに変換して読み込むを行うことができるUnity向けのUtilです
