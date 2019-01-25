@@ -27,9 +27,9 @@ using Qitz.DataUtil;
 ```jsonで読み込む
         public IEnumerator JsonLoadFromGoogleSpreadSheetTest()
         {
-            yield return JsonFromGoogleSpreadSheet.GetJsonArrayFromGoogleSpreadSheetUrl("https://docs.google.com/spreadsheets/d/1m--rzZdlS0eURgjQ0Fr4oZHLSY5xvrf8adLaOzSgBEA/edit#gid=1515512237", (jsonArry) =>
+            yield return JsonFromGoogleSpreadSheet.GetJsonArrayFromGoogleSpreadSheetUrl("https://docs.google.com/spreadsheets/d/1m--rzZdlS0eURgjQ0Fr4oZHLSY5xvrf8adLaOzSgBEA/edit#gid=1515512237", (jsonArray) =>
             {
-                foreach (var json in jsonArry)
+                foreach (var json in jsonArray)
                 {
                     Debug.Log(json);
                 }
