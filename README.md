@@ -12,7 +12,7 @@ https://github.com/QitzPub/GoogleSpreadSheetToJsonForUnity/tree/master/Archives
 
 ##  使い方
 
-```namespace
+```C#
 using Qitz.DataUtil;
 ```
 を入れます。
@@ -30,7 +30,7 @@ using Qitz.DataUtil;
 
 ### jsonで読み込めます。
 
-```jsonで読み込む
+```C#
         public IEnumerator JsonLoadFromGoogleSpreadSheetTest()
         {
             yield return JsonFromGoogleSpreadSheet.GetJsonArrayFromGoogleSpreadSheetUrl("https://docs.google.com/spreadsheets/d/1m--rzZdlS0eURgjQ0Fr4oZHLSY5xvrf8adLaOzSgBEA/edit#gid=1515512237", (jsonArray) =>
@@ -47,7 +47,7 @@ using Qitz.DataUtil;
 
 ### 指定のT型にシリアライズして読み込めます。
 
-```指定の型にシリアライズして読み込む
+```C#
 
         [Serializable]
         public class TestClassObejct
