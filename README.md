@@ -23,7 +23,8 @@ using Qitz.DataUtil;
 
 ![googleスプレッドシートurl](https://i.gyazo.com/ce201599d1ff3c92fcf3b32c4a04d98e.png "url")<br>
 <br>
-シートのurlを取得します！
+シートのurlを取得します！<br>
+
 <br>
 ![googleスプレッドシートurl](https://i.gyazo.com/af6e69c3311e370e3b85cb5f29608a86.png "url")
 
