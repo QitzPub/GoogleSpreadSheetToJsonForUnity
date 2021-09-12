@@ -27,6 +27,26 @@ using Qitz.DataUtil;
 <br>
 ![googleスプレッドシートurl](https://i.gyazo.com/af6e69c3311e370e3b85cb5f29608a86.png "url")
 
+```C#
+
+using UnityEngine;
+using Qitz.DataUtil;
+using System.Collections.Generic;
+
+namespace Qitz.DataUtil.Demo
+{
+    [CreateAssetMenu]
+    public class SkillReleaseConditionVODataStore : BaseDataStore<SkillReleaseConditionVO>
+    {
+        [ContextMenu("サーバーからデータを読み込む")]
+        protected override void LoadDataFromServer()
+        {
+            base.LoadDataFromServer();
+        }
+    }
+}
+
+```
 
 [CreateAssetMenu]をクラスにつけるのをお忘れなく！<br>
 <br>
