@@ -122,5 +122,12 @@ namespace Qitz.DataUtil.Demo
 生成されたScriptableObjectにGoogleSpreadSheetのUrlをいれて右クリックでサーバー読み込みを選択しデータを読み込みます<br>
 <br>
 
-
+# The MIT License
+<br>
+License Copyright: Qitz<br>
+License License: Qitz<br>
+License Contact: Qitz<br>
+<br>
+SPDX short identifier: MIT<br>
+<br>
 
